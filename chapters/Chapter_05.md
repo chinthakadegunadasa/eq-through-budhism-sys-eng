@@ -31,9 +31,11 @@
 ## 4. තාක්ෂණික විසඳුම: "The Regulation Algorithm" (ප්‍රායෝගික පුහුණුව)
 
 [English]
+
 The goal is not to eliminate feelings but to manage them effectively. We must recognize the "Refractory Period" where reasoning is difficult and use techniques to re-establish system control.
 
 [සිංහල]
+
 ආවේගයන්ගෙන් මිදීමට පද්ධතිමය ක්‍රමවේදය:
 
 1.  **Detection (හඳුනා ගැනීම):** සිතේ 'Noise' එක වැඩිවන බව මුලින්ම නිරීක්ෂණය කරන්න. (Telemetry signal).
