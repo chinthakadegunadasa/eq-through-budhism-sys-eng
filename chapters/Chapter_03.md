@@ -1,4 +1,5 @@
 # 03 පරිච්ඡේදය: බුද්ධිමත් බව මෝඩකමක් වන විට
+
 # Chapter 03: When Smart Is Dumb
 
 ## 1. මූලික සංකල්පය (The Core Concept)
@@ -31,9 +32,12 @@
 ## 4. තාක්ෂණික විසඳුම: "The Master Algorithm" (ප්‍රායෝගික පුහුණුව)
 
 [English]
-In this chapter, we recognize that academic intelligence offers no preparation for the turmoil that life's challenges bring. We must integrate **Emotional Feedback** into our **Decision-Making Loops**.
+
+In this chapter, 
+we recognize that academic intelligence offers no preparation for the turmoil that life's challenges bring. We must integrate **Emotional Feedback** into our **Decision-Making Loops**.
 
 [සිංහල]
+
 තර්කන බුද්ධිය සහ භාවවේගී බුද්ධිය සමතුලිත කිරීම සඳහා පද්ධතිමය ප්‍රවේශය:
 
 1.  **Metric Shift (මිනුම් දණ්ඩ වෙනස් කිරීම):** සාර්ථකත්වය යනු හුදු 'Output' එකක් (ධනය, තනතුරු) පමණක් නොව, පද්ධතියේ 'Static State' එක (සැනසීම) බව වටහා ගැනීම.
@@ -46,4 +50,3 @@ In this chapter, we recognize that academic intelligence offers no preparation f
 - **Tag:** [සිංහල] [English]
 - **Focus:** IQ vs EQ, System Control Logic, Wisdom (Panna), Latency.
 - **Next Chapter:** [04: Know Thyself](Chapter_04.md)
-- *6,
