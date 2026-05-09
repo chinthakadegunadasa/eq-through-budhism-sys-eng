@@ -31,9 +31,11 @@
 ## 4. තාක්ෂණික විසඳුම: "The Observability Stack" (ප්‍රායෝගික පුහුණුව)
 
 [English]
+
 Self-awareness is a neutral mode that maintains self-reflectiveness even amidst turbulent emotions. We transition from "I am angry" (Subjective immersion) to "I am noticing anger arising in the system" (Objective monitoring).
 
 [සිංහල]
+
 පද්ධතියේ නිරීක්ෂ්‍යතාවය වැඩි දියුණු කිරීම සඳහා පියවර:
 
 1.  **Labeling (සංඥා නම් කිරීම):** හැඟීමක් ඇති වූ විට එයට නමක් දෙන්න (උදා: "දැන් කෝපය ඇති වේ"). මෙය දත්ත වර්ගීකරණය (Classification) කිරීමකි.
@@ -44,6 +46,6 @@ Self-awareness is a neutral mode that maintains self-reflectiveness even amidst 
 
 ## 5. Metadata for GitBook
 - **Tag:** [සිංහල] [English]
-- **Focus:** System Observability, Mindfulness (Sati), Metacognition, Introspection.
+- **Focus:** System Observability, Mindfulness (Sati), Metacognition, Introspection.0
 - **Next Chapter:** [05: Passion's Slaves](Chapter_05.md)
-- 
+
