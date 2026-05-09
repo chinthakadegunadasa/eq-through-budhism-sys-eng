@@ -1,4 +1,5 @@
 # 02 පරිච්ඡේදය: භාවවේගී අත්පත් කර ගැනීමක ව්‍යුහය
+
 # Chapter 02: Anatomy of an Emotional Hijacking
 
 ## 1. මූලික සංකල්පය (The Core Concept)
@@ -48,4 +49,4 @@ To prevent a system crash during a hijack, we must introduce a **'Propagation De
 - **Tag:** [සිංහල] [English]
 - **Focus:** System Interrupts, Amygdala, Abhidhamma, Sati.
 - **Next Chapter:** [03: When Smart Is Dumb](Chapter_03.md)
-- 
+  
