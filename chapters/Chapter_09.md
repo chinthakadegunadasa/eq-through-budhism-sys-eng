@@ -46,7 +46,7 @@ To maintain a healthy partnership, we must practice "Non-defensive listening." T
 
 ## 5. Metadata for GitBook
 - **Tag:** [සිංහල] [English]
-- 
+
 - **Focus:** Distributed Systems, Conflict Resolution, Metta, Ego Management.
 - **Next Chapter:** [10: Managing with Heart](Chapter_10.md)
 - 
