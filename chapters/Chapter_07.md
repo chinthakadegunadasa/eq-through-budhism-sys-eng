@@ -35,11 +35,13 @@
 Empathy requires a calm internal state to detect the subtle emotional signals of others. By quieting our own internal system noise, we can achieve high-fidelity social integration and authentic compassion.
 
 [සිංහල]
+
 සහකම්පනය වර්ධනය කර ගැනීමට පද්ධතිමය පියවර:
 
 1.  **Attunement (අනුගත වීම):** අනෙකා පවසන දේට පමණක් නොව, ඔහුගේ ස්වරයට සහ ඉරියව්වලට අවධානය යොමු කරන්න. (Multi-channel data reception).
 2.  **Internal Silence (අභ්‍යන්තර නිහඬතාවය):** අනෙකාට ඇහුම්කන් දෙන අතරතුර ඔබගේ 'Processor' එක තුළ විනිශ්චයන් (Judgments) ධාවනය කිරීම නවත්වන්න.
-3.  **Resonance (ප්‍රතිසංයෝජනය):** අනෙකාගේ හැඟීම ඔබ තුළ පරීක්ෂා කර බලන්න. "මම ඔහු වූවා නම් මට දැනෙන්නේ කෙසේද?" (System simulation).
+   
+4.  **Resonance (ප්‍රතිසංයෝජනය):** අනෙකාගේ හැඟීම ඔබ තුළ පරීක්ෂා කර බලන්න. "මම ඔහු වූවා නම් මට දැනෙන්නේ කෙසේද?" (System simulation).
 
 ---
 
