@@ -48,7 +48,6 @@ Empathy requires a calm internal state to detect the subtle emotional signals of
 ## 5. Metadata for GitBook
 
 - **Tag:** [සිංහල] [English]
-- 
 - **Focus:** Interoperability, Karuna (Compassion), Signal Decoding, Connection.
 - **Next Chapter:** [08: The Social Arts](Chapter_08.md)
-- 
+
