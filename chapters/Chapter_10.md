@@ -1,4 +1,6 @@
-# 10 වන පරිච්ඡේදය: හදවතින් කළමනාකරණය
+# 10 වන පරිච්ඡේදය: හදවතින් 
+කළමනාකරණය
+
 # Chapter 10: Managing with Heart
 
 ## 1. මූලික සංකල්පය (The Core Concept)
@@ -54,7 +56,7 @@ Effective management requires the ability to provide criticism as helpful feedba
 ## 5. Metadata for GitBook
 
 - **Tag:** [සිංහල] [English]
-- 
+  
 - **Focus:** Organizational Architecture, Constructive Feedback, Dasa Raja Dharma, Efficiency.
 - **Next Chapter:** [11: Mind and Medicine](Chapter_11.md)
   
