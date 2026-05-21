@@ -1,0 +1,10 @@
+# kdp-options.yaml
+from: markdown
+to: docx
+output-file: emotional_intelligence_sl.docx
+toc: true
+number-sections: true
+variables:
+  lang: si-LK           # සිංහල භාෂාව සඳහා
+  hyphenate: true      # Auto-hyphenation සක්‍රීය කිරීම
+  mainfont: "DL-Ariel" # හෝ සිංහල යුනිකෝඩ් සහාය දක්වන ෆොන්ට් එකක්
