@@ -1,4 +1,4 @@
-# defaults.yaml
+# defaults.yamle
 from: markdown
 to: pdf
 input-files:
