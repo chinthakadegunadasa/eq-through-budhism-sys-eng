@@ -1,10 +1,21 @@
-# kdp-options.yaml
+# defaults.yaml
 from: markdown
-to: docx
+to: pdf
+input-files:
+  - README.md
+  - chapters/*.md       # ඔබේ පරිච්ඡේද ඇති ෆෝල්ඩරය
+  - appendices/*.md     # ඔබේ උපග්‍රන්ථ ඇති ෆෝල්ඩරය
+  - glossary.md
+
 output-file: emotional_intelligence_sl.pdf
-toc: true
-number-sections: true
+
+pdf-engine: xelatex
 variables:
-  lang: si-LK           # සිංහල භාෂාව සඳහා
-  hyphenate: true      # Auto-hyphenation සක්‍රීය කිරීම
-  mainfont: "LKLUG" # හෝ සිංහල යුනිකෝඩ් සහාය දක්වන ෆොන්ට් එකක්
+  mainfont: "LKLUG"     # GitHub Actions හි ඇති එකම සිංහල ෆොන්ට් එක
+  fontsize: 12pt
+  geometry:
+    - paperwidth=6in
+    - paperheight=9in
+    - margin=0.75in
+  lang: si-LK
+  
