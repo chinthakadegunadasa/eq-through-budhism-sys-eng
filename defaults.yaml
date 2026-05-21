@@ -6,6 +6,7 @@ input-files:
   - chapters/*.md       # ඔබේ පරිච්ඡේද ඇති ෆෝල්ඩරය
   - appendices/*.md     # ඔබේ උපග්‍රන්ථ ඇති ෆෝල්ඩරය
   - glossary.md
+  - conclusions.md
 
 output-file: emotional_intelligence_sl.pdf
 
