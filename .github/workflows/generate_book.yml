@@ -2,33 +2,28 @@ name: Generate KDP Book
 on:
   push:
     branches:
-      - main  # ඔබ ප්‍රධාන ශාඛාවට push කරන විට ක්‍රියාත්මක වේ
+      - main
 
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # v4 ලෙස යාවත්කාලීන කරන ලදී
 
       - name: Install Pandoc and XeLaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic
-
-      - name: Install Sinhalese Fonts
-        run: |
-          # සිංහල අකුරු සඳහා නිදහස් ෆොන්ට් එකක් (උදා: විශේෂ යුනිකෝඩ් ෆොන්ට්) ස්ථාපනය කිරීම
-          sudo apt-get install -y fonts-lklug-sinhala 
-          # එසේත් නැතිනම් පද්ධතියේ ඇති Nirmala UI වෙනුවට LKLUG භාවිතා කිරීමට defaults.yaml වෙනස් කරන්න
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic fonts-lklug-sinhala
 
       - name: Build Book using Defaults
         run: |
-          # -d flag එක මගින් defaults.yaml ගොනුව භාවිතා කරයි
+          # defaults.yaml ගොනුවේ mainfont: "LKLUG" ලෙස ඇති බව සහතික කරගන්න
           pandoc -d defaults.yaml
 
       - name: Upload Generated PDF
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4 # v4 ලෙස යාවත්කාලීන කරන ලදී
         with:
           name: KDP-Ready-Book
           path: emotional_intelligence_sl.pdf
+          retention-days: 5 # දින 5කින් පසු ගොනුව ඉවත් වේ (විකල්ප)
