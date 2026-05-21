@@ -1,7 +1,7 @@
 # kdp-options.yaml
 from: markdown
 to: docx
-output-file: emotional_intelligence_sl.docx
+output-file: emotional_intelligence_sl.pdf
 toc: true
 number-sections: true
 variables:
