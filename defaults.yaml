@@ -3,11 +3,11 @@ from: markdown
 to: pdf
 input-files:
   - README.md
-  - chapters/".md # ඔබේ පරිච්ඡේද ඇති ෆෝල්ඩරය  
-  - appendices/*.md # ඔබේ උපග්‍රන්ථ ඇති ෆෝල්ඩරය
+  - chapters/*.md
+  - appendices/*.md
   - glossary.md
   - conclusion.md
-
+  
 output-file: emotional_intelligence_sl.pdf
 
 pdf-engine: xelatex
