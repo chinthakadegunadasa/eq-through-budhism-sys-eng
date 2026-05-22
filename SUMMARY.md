@@ -23,7 +23,7 @@
 ---
 
 ## Part II: Appendices (මුල් කෘතියේ සෘජු පරිවර්තනය)
-* [Appendix 01: භාවවේගයන් පවතින්නේ කුමක් සඳහාද?](appendices/Appendix_01_Translation.md)
+* [Appendix 01: භාවවේගයන් පවතින්නේ කුමක් සඳහාද?](appendices/Appendix_01_Tranmslation.md)
 * [Appendix 02: භාවවේගී අත්පත් කර ගැනීමක ව්‍යුහය](appendices/Appendix_02_Translation.md)
 * [Appendix 03: බුද්ධිමත් බව මෝඩකමක් වන විට](appendices/Appendix_03_Translation.md)
 * [Appendix 04: තමා හඳුනා ගැනීම](appendices/Appendix_04_Translation.md)
