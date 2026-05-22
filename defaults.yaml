@@ -4,7 +4,7 @@ to: pdf
 input-files:
   - README.md
   - chapters/*.md       # ඔබේ පරිච්ඡේද ඇති ෆෝල්ඩරය
-  - apඇpendices/*.md     # ඔබේ උපග්‍රන්ථ ඇති ෆෝල්ඩරය
+  - appendices/*.md     # ඔබේ උපග්‍රන්ථ ඇති ෆෝල්ඩරය
   - glossary.md
   - conclusion.md
 
@@ -19,4 +19,3 @@ variables:
     - paperheight=9in
     - margin=0.75in
   lang: si-LK
-  
