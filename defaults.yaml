@@ -3,9 +3,8 @@ from: markdown
 to: pdf
 input-files:
   - README.md
-  - chapters/Chapter_01.md      # ඔබේ පරිච්ඡේද ඇති ෆෝල්ඩරය  
-  
-  # ඔබේ උපග්‍රන්ථ ඇති ෆෝල්ඩරය
+  - chapters/".md # ඔබේ පරිච්ඡේද ඇති ෆෝල්ඩරය  
+  - appendices/*.md # ඔබේ උපග්‍රන්ථ ඇති ෆෝල්ඩරය
   - glossary.md
   - conclusion.md
 
