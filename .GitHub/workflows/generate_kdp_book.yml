@@ -1,0 +1,14 @@
+      - name: Build DOCX Book
+        run: |
+          # defaults.yaml ගොනුවට කිසිදු සම්බන්ධයක් නැත
+          # සියලුම settings කෙලින්ම විධානයක් ලෙස ලබා දී ඇත
+          pandoc README.md chapters/*.md appendices/*.md \
+          -f markdown \
+          -t docx \
+          -o emotional_intelligence_sl.docx \
+          --toc \
+          --toc-depth=2 \
+          -V lang=si-LK \
+          --number-sections \
+          --verbose
+          
