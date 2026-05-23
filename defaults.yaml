@@ -1,30 +1,22 @@
+# defaults.yaml
 from: markdown
-to: pdf
-output-file: emotional_intelligence_sl.pdf
-pdf-engine: xelatex
+to: docx
+output-file: emotional_intelligence_sl.docx
 
+# මූලාශ්‍ර ගොනු (ඔබේ repository එකේ ඇති ගොනු අනුපිළිවෙලට සකසන්න)
+input-files:
+  - README.md
+  - chapters/*.md
+  - appendices/*.md
+  - glossary.md
+  - conclusion.md
+
+# DOCX සැකසුම්
 variables:
-  mainfont: "LKLUG"
-  fontsize: 12pt
-  lang: si
-  geometry:
-    - margin=1in
-    
-
-output-file: emotional_intelligence_sl.pdf
-pdf-engine: xelatex
-
-variables:
-  mainfont: "LKLUG"
-  fontsize: 12pt
   lang: si-LK
-  geometry:
-    - paperwidth=6in
-    - paperheight=9in
-    - margin=0.75in
-  # පේළි කැඩීමේදී ඇතිවන දෝෂ මඟහරවා ගැනීමට
-  microtypeoptions: "final"
+  reference-doc: template.docx # (විකල්ප) styles සැකසීමට ඔබට template එකක් භාවිතා කළ හැක
 
-# මෙවර header-includes සම්පූර්ණයෙන්ම ඉවත් කර බලන්න
-
-    
+# අන්තර්ගත වගුව සහ අංකනය
+toc: true
+toc-depth: 2
+number-sections: true
