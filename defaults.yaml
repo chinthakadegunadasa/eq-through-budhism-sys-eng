@@ -14,13 +14,19 @@ variables:
   lang: si-LK
   
 output-file: emotional_intelligence_sl.pdf
-
 pdf-engine: xelatex
+
 variables:
-  mainfont: "LKLUG"     # GitHub Actions හි ඇති එකම සිංහල ෆොන්ට් එක
   fontsize: 12pt
   geometry:
     - paperwidth=6in
     - paperheight=9in
     - margin=0.75in
-  lang: si-LK
+
+# සිංහල භාෂාව සහ ෆොන්ට් එක LaTeX පද්ධතියට හඳුන්වා දීම
+header-includes: |
+  \usepackage{fontspec}
+  \usepackage{polyglossia}
+  \setmainlanguage{sinhala}
+  \setmainfont{LKLUG}
+  
