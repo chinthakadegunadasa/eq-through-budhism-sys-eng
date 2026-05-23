@@ -18,12 +18,15 @@ jobs:
 
       - name: Build DOCX Book
         run: |
-          # defaults.yaml මගින් DOCX ගොනුව ජනනය කරයි
-          pandoc -d defaults.yaml
+          # Bash මගින් Wildcards නිවැරදිව Expand කර Pandoc වෙත ලබා දීම
+          # glossary.md හෝ conclusion.md තවම නැතිනම් ඒවා මෙම පේළියෙන් ඉවත් කරන්න
+          pandoc README.md chapters/*.md appendices/*.md glossary.md conclusion.md \
+          -d defaults.yaml \
+          --verbose
 
       - name: Upload DOCX Artifact
         uses: actions/upload-artifact@v4
         with:
           name: KDP-Ready-DOCX
           path: emotional_intelligence_sl.docx
-          
+  
