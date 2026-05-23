@@ -1,4 +1,4 @@
-name: Generate KDP DOCX Final
+name: Generate KDP Book
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-docx:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -17,11 +17,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc
 
-      - name: Build DOCX Book
+      - name: Build Book (DOCX)
         run: |
-          # මෙහි -d defaults.yaml භාවිතා නොකර කෙලින්ම parameters ලබා දෙයි.
-          # එවිට කිසිදු YAML Parsing දෝෂයක් ඇති නොවේ.
-          # ඔබ සාදා ඇති නව Forward.md සහ Author_Forward.md මෙහි ඇතුළත් කර ඇත.
+          # defaults.yaml ගොනුව මත යැපීම සම්පූර්ණයෙන්ම නතර කර, 
+          # සියලුම parameters මෙහි ලබා දෙයි.
           
           pandoc Forward.md Author_Forward.md README.md chapters/*.md appendices/*.md \
           -f markdown \
@@ -33,9 +32,8 @@ jobs:
           --number-sections \
           --verbose
 
-      - name: Upload DOCX Artifact
+      - name: Upload Result
         uses: actions/upload-artifact@v4
         with:
-          name: KDP-Ready-DOCX
+          name: KDP-Output
           path: emotional_intelligence_sl.docx
-          
