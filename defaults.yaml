@@ -16,20 +16,20 @@ variables:
 output-file: emotional_intelligence_sl.pdf
 pdf-engine: xelatex
 
-# variables සහ metadata එකිනෙකට වෙනස් වේ
 variables:
+  mainfont: "LKLUG"
   fontsize: 12pt
+  lang: si
+  polyglossia-lang:
+    name: sinhala
   geometry:
     - paperwidth=6in
     - paperheight=9in
     - margin=0.75in
 
-# header-includes කොටස metadata යටතට ඇතුළත් කරන්න
 metadata:
+  # ලේඛනයේ ඇති ඕනෑම backslash ගැටලුවක් මඟහරවා ගැනීමට
   header-includes: |
     \usepackage{fontspec}
-    \usepackage{polyglossia}
-    \setmainlanguage{sinhala}
-    \setmainfont{LKLUG}
+    \defaultfontfeatures{Mapping=tex-text}
     
-  
