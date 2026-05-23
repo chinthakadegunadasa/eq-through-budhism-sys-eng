@@ -19,17 +19,14 @@ pdf-engine: xelatex
 variables:
   mainfont: "LKLUG"
   fontsize: 12pt
-  lang: si
-  polyglossia-lang:
-    name: sinhala
+  lang: si-LK
   geometry:
     - paperwidth=6in
     - paperheight=9in
     - margin=0.75in
+  # පේළි කැඩීමේදී ඇතිවන දෝෂ මඟහරවා ගැනීමට
+  microtypeoptions: "final"
 
-metadata:
-  # ලේඛනයේ ඇති ඕනෑම backslash ගැටලුවක් මඟහරවා ගැනීමට
-  header-includes: |
-    \usepackage{fontspec}
-    \defaultfontfeatures{Mapping=tex-text}
+# මෙවර header-includes සම්පූර්ණයෙන්ම ඉවත් කර බලන්න
+
     
