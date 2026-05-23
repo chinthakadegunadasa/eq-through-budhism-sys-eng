@@ -21,7 +21,9 @@ jobs:
         run: |
           # මෙහි -d defaults.yaml භාවිතා නොකර කෙලින්ම parameters ලබා දෙයි.
           # එවිට කිසිදු YAML Parsing දෝෂයක් ඇති නොවේ.
-          pandoc Forward.md README.md chapters/*.md appendices/*.md \
+          # ඔබ සාදා ඇති නව Forward.md සහ Author_Forward.md මෙහි ඇතුළත් කර ඇත.
+          
+          pandoc Forward.md Author_Forward.md README.md chapters/*.md appendices/*.md \
           -f markdown \
           -t docx \
           -o emotional_intelligence_sl.docx \
