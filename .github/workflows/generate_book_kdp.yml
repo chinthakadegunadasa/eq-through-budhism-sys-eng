@@ -1,3 +1,4 @@
+---
 name: Generate KDP Book
 on:
   push:
