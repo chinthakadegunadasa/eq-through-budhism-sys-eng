@@ -1,4 +1,3 @@
-# defaults.yaml (Settings පමණි)
 from: markdown
 to: docx
 output-file: emotional_intelligence_sl.docx
