@@ -1,22 +1,11 @@
-# defaults.yaml
+# defaults.yaml (Settings පමණි)
 from: markdown
 to: docx
 output-file: emotional_intelligence_sl.docx
 
-# මූලාශ්‍ර ගොනු (ඔබේ repository එකේ ඇති ගොනු අනුපිළිවෙලට සකසන්න)
-input-files:
-  - README.md
-  - chapters/*.md
-  - appendices/*.md
-  - glossary.md
-  - conclusion.md
-
-# DOCX සැකසුම්
 variables:
   lang: si-LK
-  reference-doc: template.docx # (විකල්ප) styles සැකසීමට ඔබට template එකක් භාවිතා කළ හැක
 
-# අන්තර්ගත වගුව සහ අංකනය
 toc: true
 toc-depth: 2
 number-sections: true
