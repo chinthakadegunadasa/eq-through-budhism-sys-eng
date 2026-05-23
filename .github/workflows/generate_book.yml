@@ -1,29 +1,29 @@
-name: Generate KDP Book
+name: Generate KDP DOCX
 on:
   push:
     branches:
       - main
 
 jobs:
-  build-pdf:
+  build-docx:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4 # v4 ලෙස යාවත්කාලීන කරන ලදී
+        uses: actions/checkout@v4
 
-      - name: Install Pandoc and XeLaTeX
+      - name: Install Pandoc
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic fonts-lklug-sinhala
+          sudo apt-get install -y pandoc
 
-      - name: Build Book using Defaults
+      - name: Build DOCX Book
         run: |
-          # defaults.yaml ගොනුවේ mainfont: "LKLUG" ලෙස ඇති බව සහතික කරගන්න
+          # defaults.yaml මගින් DOCX ගොනුව ජනනය කරයි
           pandoc -d defaults.yaml
 
-      - name: Upload Generated PDF
-        uses: actions/upload-artifact@v4 # v4 ලෙස යාවත්කාලීන කරන ලදී
+      - name: Upload DOCX Artifact
+        uses: actions/upload-artifact@v4
         with:
-          name: KDP-Ready-Book
-          path: emotional_intelligence_sl.pdf
-          retention-days: 5 # දින 5කින් පසු ගොනුව ඉවත් වේ (විකල්ප)
+          name: KDP-Ready-DOCX
+          path: emotional_intelligence_sl.docx
+          
