@@ -1,9 +1,9 @@
-name: Final KDP Build
+name: Generate KDP DOCX Final
 on:
   push:
     branches:
       - main
-  workflow_dispatch: # ඔබට අවශ්‍ය විටෙක අතින් (Manually) Run කිරීමට
+  workflow_dispatch:
 
 jobs:
   build-docx:
@@ -19,11 +19,9 @@ jobs:
 
       - name: Build DOCX Book
         run: |
-          # මෙහි කිසිදු බාහිර .yaml ගොනුවක් භාවිතා නොවේ. 
-          # සියලුම KDP settings මෙහි ඇතුළත් කර ඇත.
-          # glossary.md හෝ conclusion.md නැතිනම් ඒවා පහත ලැයිස්තුවෙන් ඉවත් කරන්න.
-          
-          pandoc README.md chapters/*.md appendices/*.md \
+          # මෙහි -d defaults.yaml භාවිතා නොකර කෙලින්ම parameters ලබා දෙයි.
+          # එවිට කිසිදු YAML Parsing දෝෂයක් ඇති නොවේ.
+          pandoc Forward.md README.md chapters/*.md appendices/*.md \
           -f markdown \
           -t docx \
           -o emotional_intelligence_sl.docx \
