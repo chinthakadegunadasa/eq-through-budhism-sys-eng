@@ -1,6 +1,8 @@
-# Table of Contents
+මට# Table of Contents
 
 * [Introduction](README.md)
+* Introduction](README.md)
+  
 
 ## Part I: Reframed Insights (පද්ධති සහ බෞද්ධ විග්‍රහය)
 * [01: දත්ත සැකසුම් තර්කනය](chapters/Chapter_01.md)
