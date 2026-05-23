@@ -18,8 +18,8 @@ jobs:
 
       - name: Build DOCX Book
         run: |
-          # defaults.yaml භාවිතා නොකර කෙලින්ම parameters ලබා දීම
-          # මෙය 100% ක් ආරක්ෂිත ක්‍රමයයි
+          # defaults.yaml භාවිතා නොකර කෙලින්ම විධානයන් ලබා දීම
+          # මෙය 100% ක් සාර්ථක සහ ආරක්ෂිත ක්‍රමයයි
           pandoc README.md chapters/*.md appendices/*.md glossary.md conclusion.md \
           -f markdown \
           -t docx \
@@ -27,4 +27,11 @@ jobs:
           --toc \
           --toc-depth=2 \
           -V lang=si-LK \
+          --number-sections \
           --verbose
+
+      - name: Upload DOCX Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: KDP-Ready-DOCX
+          path: emotional_intelligence_sl.docx
