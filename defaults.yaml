@@ -12,10 +12,11 @@ variables:
     - paperheight=9in
     - margin=0.75in
   lang: si-LK
-  
+
 output-file: emotional_intelligence_sl.pdf
 pdf-engine: xelatex
 
+# variables සහ metadata එකිනෙකට වෙනස් වේ
 variables:
   fontsize: 12pt
   geometry:
@@ -23,10 +24,12 @@ variables:
     - paperheight=9in
     - margin=0.75in
 
-# සිංහල භාෂාව සහ ෆොන්ට් එක LaTeX පද්ධතියට හඳුන්වා දීම
-header-includes: |
-  \usepackage{fontspec}
-  \usepackage{polyglossia}
-  \setmainlanguage{sinhala}
-  \setmainfont{LKLUG}
+# header-includes කොටස metadata යටතට ඇතුළත් කරන්න
+metadata:
+  header-includes: |
+    \usepackage{fontspec}
+    \usepackage{polyglossia}
+    \setmainlanguage{sinhala}
+    \setmainfont{LKLUG}
+    
   
