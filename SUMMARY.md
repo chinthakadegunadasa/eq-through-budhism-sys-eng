@@ -1,7 +1,7 @@
 මට# Table of Contents
 
 * [Introduction](README.md)
-+ ,කතෘ පෙරවදන](Author_Forward.md)
++ [කතෘ පෙරවදන](Author_Forward.md)
 
 
 ## Part I: Reframed Insights (පද්ධති සහ බෞද්ධ විග්‍රහය
