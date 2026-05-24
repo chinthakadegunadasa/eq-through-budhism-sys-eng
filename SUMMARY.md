@@ -1,10 +1,10 @@
 මට# Table of Contents
 
 * [Introduction](README.md)
-* Introduction](README.md)
-  
++ ,කතෘ පෙරවදන](Author_Forward.md)
 
-## Part I: Reframed Insights (පද්ධති සහ බෞද්ධ විග්‍රහය)
+
+## Part I: Reframed Insights (පද්ධති සහ බෞද්ධ විග්‍රහය
 * [01: දත්ත සැකසුම් තර්කනය](chapters/Chapter_01.md)
 * [02: පද්ධති බිඳවැටීම්](chapters/Chapter_02.md)
 * [03: සැකසුම් ප්‍රවේගය සහ ධාරිතාව](chapters/Chapter_03.md)
